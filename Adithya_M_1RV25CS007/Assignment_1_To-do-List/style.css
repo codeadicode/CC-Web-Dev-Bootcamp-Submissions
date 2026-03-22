@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.sheknows.com/wp-content/uploads/2018/08/dgldbejjyofmcsfvkfd9.jpeg?w=1920);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    color: chocolate;
+}
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+a:hover {
+    transform: scale(1.2);
+    color: cadetblue;
+}
+.wrap {
+    background-color: brown;
+    margin: 0;
+}
+.abbr {
+     display: flex;
+     justify-content: space-around;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 10px solid blue;
+    width: 350px;
+    border-radius: 10px;
+    height: 350px;
+    font-size: 1.4rem;
+    font-family: monospace;
+}
+#btn-add {
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-add:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+input {
+    width: 60vh;
+    height: 30px;
+    text-align: center;
+}
+#manage {
+    text-align: center;
+    font-family: monospace;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid blue;
+    border-radius: 15px;  
+}
+#manage h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: chocolate;
+}
+#tasks {
+    list-style-type: none;
+    padding: 0;
+}
+#tasks li {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#manage button {
+    margin-top: 15px;
+    padding: 8px 8px;
+    font-size: 16px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#manage button:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <div class="wrap">
+        <br><br>
+        <h1>To-do List</h1><br><br>
+        <div class="abbr">
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <a href="#" onclick="showTasks()">Manage Tasks</a>
+        </div>
+    </div>
+    <br><br>
+
+    <div id="add" class="input-box">
+        <h2>Add task</h2><br>
+        <label for="task">Task: <input type="text" id="newTask"></label>
+        <br><br>
+        <label for="time">Add time: <input type="datetime-local" id="time"></label>
+         <br><br>
+        <button id="btn-add" onclick="addTask()">Add task</button>
+    </div>
+    
+    <div id="manage" style="display: none;">
+        <h1>Manage Tasks</h1>
+        <ul id="tasks">
+            
+        </ul>
+        <button onclick="goBack()">Back to Homepage</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
