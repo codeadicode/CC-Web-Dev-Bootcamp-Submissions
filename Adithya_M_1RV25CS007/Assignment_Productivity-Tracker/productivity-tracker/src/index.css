@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #233b51;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px;
+}

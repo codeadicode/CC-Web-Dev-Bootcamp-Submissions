@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #233b51;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #9913be;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.container-item {
+  background: white;
+  padding: 25px;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-section button {
+  border-radius: 8px;
+  background-color: #583a7d;
+  color: #f1f1f1;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+.controls button {
+  width: 150px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: burlywood;
+}
+
+.controls select {
+  height: 2.2rem;
+  width: 150px;
+  font-size: 16px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #668bb4;
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul button {
+  border-radius: 8px;
+  width: 100px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
